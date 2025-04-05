@@ -1,73 +1,36 @@
-<!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research</title>
-    <link rel="stylesheet" href="style.css">
-    <script>
-        function toggleResearch() {
-            var content = document.getElementById("researchContent");
-            if (content.style.display === "none") {
-                content.style.display = "block"; // 보이기
-            } else {
-                content.style.display = "none"; // 숨기기
-            }
-        }
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Module</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
-        <h1>Research Information</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="data.html">Data</a></li>
-                <li><a href="research.html">Research</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <button onclick="toggleResearch()">Research</button>
-        <div id="researchContent" style="display: none;">
-            <h2>Realistic Research: University, Web-based, and Local Resources</h2>
-            <h3>Overview</h3>
-            <p>This lesson is designed for students in their first semester of the TCID, IA, or Ph.D. in Technical Communication programs who want to develop, improve, or refresh their research skills. It provides strategies for researching efficiently and effectively.</p>
-            
-            <h3>Content Areas</h3>
-            <ul>
-                <li>Getting Started: Learn how to access IIT library services and navigate the library website.</li>
-                <li>Research Timelines: Develop a timeline to manage research deadlines effectively.</li>
-                <li>Requesting Resources: Understand how to request articles and books from other libraries.</li>
-                <li>Local Libraries: Learn how and when to utilize local library resources.</li>
-                <li>Finding Resources on the Web: Explore web-based research tools and their best uses.</li>
-            </ul>
-            
-            <h3>Getting Started</h3>
-            <h4>Accessing Library Services</h4>
-            <p>To use IIT library services, you need an <strong>IIT Hawk Card</strong>.</p>
-
-            <h3>Research Timelines</h3>
-            <h4>Formulating a Timeline</h4>
-            <p>Develop a research timeline to ensure you meet your deadlines.</p>
-
-            <h3>Requesting Resources</h3>
-            <p>If an article isn’t available as a PDF, you can request it through MyILL.</p>
-
-            <h3>Finding Resources on the Web</h3>
-            <p>Explore Google Scholar and other online resources to find additional research materials.</p>
-
-            <h3>Final Thoughts</h3>
-            <p>Start early and utilize various research methods for more effective results.</p>
-        </div>
-    </main>
-
-    <footer>
-        <p>© 2025 Research Project. All rights reserved.</p>
-    </footer>
-
+  <header>
+    <h1>🔍 Realistic Research: University, Web-based, and Local Resources</h1>
+  </header>
+  <main>
+    <section class="card">
+      <h2>🟨 Introduction</h2>
+      <p>This lesson is meant for students who must begin research in their first semester. It helps them develop, improve, or refresh strategies to search and use resources efficiently.</p>
+    </section>
+    <section class="card">
+      <h2>🟥 Content Areas</h2>
+      <ul>
+        <li>Accessing IIT library services</li>
+        <li>Formulating a research timeline</li>
+        <li>Requesting articles/books</li>
+        <li>Using local libraries</li>
+        <li>Finding web resources</li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>🟧 Getting Started</h2>
+      <p>Log in to myIIT to access library services and begin exploring databases like EBSCO and JSTOR.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Research Paper Toolbox - IIT</p>
+  </footer>
 </body>
 </html>
-
