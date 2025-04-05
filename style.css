@@ -134,4 +134,9 @@ footer {
   footer .module:hover {
     background-color: #555;
   }
+.modules {
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 100px;
+}
     
