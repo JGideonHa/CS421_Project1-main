@@ -114,4 +114,24 @@ body {
     text-align: center;
     margin-top: 0.5rem;
   }
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+  }
   
+  footer .module {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  footer .module:hover {
+    background-color: #555;
+  }
+    
